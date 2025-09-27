@@ -1,0 +1,23 @@
+name: stock-alpha
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pandas
+  - numpy
+  - jupyterlab
+  - pip:
+    - yfinance
+    - scikit-learn
+    - statsmodels
+    - matplotlib
+    - plotly
+    - vectorbt
+    - empyrical
+    - arch
+    - lightgbm
+    - xgboost
+    - streamlit
+    - shap
+    - cvxpy
